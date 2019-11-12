@@ -19,7 +19,7 @@ with open("data.txt", "r") as file:
 for i in range(len(data)):
     print(data[i])
 
-print("\nrandom.choice() has been used to select iPad winner\n")
+print("\nrandom.choice() has been used to select winner\n")
 print("The winner is ..... ", random.choice(data))
 
 file.close()
